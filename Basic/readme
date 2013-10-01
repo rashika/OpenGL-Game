@@ -1,0 +1,44 @@
+CSE251 Assignment2 Roll Number - 201101101
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+About:
+This program is an adventure course where a person has to go from their current position to a destination while avoiding obstacles incorporated in the form of moving and missing tiles.
+
+How to run:
+-> The makefile compiles the code. (Type 'make' on the terminal ad press enter)
+-> Now type './201101101_Assign2' (on terminal) to run the executable. {linux}
+
+Controls:
+
+-> The world is surrounded by water. If the person steps or jumps outside the defined world then he falls into water. This event is followed by termination of game with a message.
+
+-> The character walks and jumps around in the world. The motion is controlled by arrow keys while jump is controlled using 'j' key. The up key represents forward movement while the down key represent reverse motion and right and left key is used to set the direction of motion.
+
+-> The motion of the humanoid on a particular tile is denoted by its illumination i.e. the tile on which the humanoid is standing is illuminated giving a sense of spotlight to the game.
+
+-> Some of the tiles in the world are missing. These moving tiles continuosly exchange their positions with the neighbouring tiles i.e. they undergo left and right motion. If the humanoid steps or jumps on a missing tile , he falls following the gravitation law and tha game gets over displaying a message on the terminal. 
+
+-> Some of the tiles in world move vertically posing new threats to our humanoid. Humanoid here cannot jump too high else he is recoiled back. He as well cannot parse through the rising tiles thus following the laws of physics.
+
+-> Some of the tiles contain blocks on it. If the person steps or jumps into this box then he is recoiled back following the laws of physics.
+
+-> The character walks and jumps around in the world. The motion is controlled by arrow keys while jump is controlled using 'j' key. The up key represents forward movement while the down key represent reverse motion and right and left key is used to set the direction of motion.
+-> The world has a First person view. User can switch to this view by pressing 'f' key. Pressing of 'f' key again toggles to the default view of the game. This follows the humanoid in the direction of motion.
+
+-> The world has a Third person view. User can switch to this view by pressing 'p' key. Pressing of 'p' key again toggles to the default view of the game.
+
+-> The world has a Tower view. User can switch to this view by pressing 't' key. User is provided with certain controls in this view. He can press 's' to zoom out and 'w' to zoom in. Similarly, user can press 'q' and 'z' key to rotate and antirotate the world along x axis. User can also do the same thing along y axis using 'a' and 'd' key. Pressing 't' key again toggles to the default view of the game.
+
+-> The world has a Tile view. User can switch to this view by pressing 'b' key. Pressing of 'b' key again toggles to the default view of the game.Here, one can navigate to adjacent tiles using keyboard keys. 'a' key for left movement , 'd' key for right movement , 'w' key for forward movement and 'x' key for backward movement.
+
+-> The world has a Hover view. User can switch to this view by pressing 'v' key. Pressing 'v' key again toggles to the default view of the game.Here, using mouse movements we can change the direction of helicopter viewing.
+
+-> The world has a Helicopter view. User can switch to this view by pressing 'h' key. Pressing 'h' key again toggles to the default view of the game. Here, using click and drag , one can change the angle of viewing from helicopter. The world can be zoomed in or out using mouse scroll.
+
+-> If the humanoid reaches the coloured tile i.e. the end of the game then the game gets terminated displaying a message on the terminal.
+
+
+Sources:
+-> http://www.swiftless.com/tutorials/opengl/camera.html - for making Tower View camera.
+-> http://videotutorialsrock.com - for inserting texture
+
